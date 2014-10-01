@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B711EB519DBF6C100C3D4E4 /* 4881125.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B711EB119DBF6C100C3D4E4 /* 4881125.png */; };
+		8B711EB719DBF6C100C3D4E4 /* phone-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B711EB319DBF6C100C3D4E4 /* phone-logo.jpg */; };
+		8B711EB819DBF6C100C3D4E4 /* sms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B711EB419DBF6C100C3D4E4 /* sms.jpg */; };
+		8B711EBD19DBF71000C3D4E4 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B711EBA19DBF71000C3D4E4 /* AddContactViewController.m */; };
+		8B711EBE19DBF71000C3D4E4 /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B711EBB19DBF71000C3D4E4 /* AddContactViewController.xib */; };
+		8B711EC119DBF9AC00C3D4E4 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B711EC019DBF9AC00C3D4E4 /* PersonViewController.xib */; };
+		8B95A6EE19D96E440092082D /* EditPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95A6EC19D96E440092082D /* EditPersonViewController.m */; };
+		8B95A6EF19D96E440092082D /* EditPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B95A6ED19D96E440092082D /* EditPersonViewController.xib */; };
+		8B95A6F519D98DD80092082D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B95A6F419D98DD80092082D /* MessageUI.framework */; };
+		8B95A6F719D99DA10092082D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B95A6F619D99DA10092082D /* QuartzCore.framework */; };
+		8BC1273E19D0165C007FF886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1273D19D0165C007FF886 /* Foundation.framework */; };
+		8BC1274019D0165C007FF886 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1273F19D0165C007FF886 /* CoreGraphics.framework */; };
+		8BC1274219D0165C007FF886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1274119D0165C007FF886 /* UIKit.framework */; };
+		8BC1274419D0165C007FF886 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1274319D0165C007FF886 /* CoreData.framework */; };
+		8BC1274A19D0165C007FF886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1274819D0165C007FF886 /* InfoPlist.strings */; };
+		8BC1274C19D0165C007FF886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1274B19D0165C007FF886 /* main.m */; };
+		8BC1275019D0165D007FF886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1274F19D0165D007FF886 /* AppDelegate.m */; };
+		8BC1275319D0165D007FF886 /* TelephoneBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1275119D0165D007FF886 /* TelephoneBook.xcdatamodeld */; };
+		8BC1275519D0165D007FF886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1275419D0165D007FF886 /* Images.xcassets */; };
+		8BC1275C19D0165D007FF886 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1275B19D0165D007FF886 /* XCTest.framework */; };
+		8BC1275D19D0165D007FF886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1273D19D0165C007FF886 /* Foundation.framework */; };
+		8BC1275E19D0165D007FF886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1274119D0165C007FF886 /* UIKit.framework */; };
+		8BC1275F19D0165D007FF886 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1274319D0165C007FF886 /* CoreData.framework */; };
+		8BC1276719D0165E007FF886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1276519D0165E007FF886 /* InfoPlist.strings */; };
+		8BC1276919D0165E007FF886 /* TelephoneBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1276819D0165E007FF886 /* TelephoneBookTests.m */; };
+		8BC1277519D016A0007FF886 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1277319D016A0007FF886 /* ContactsViewController.m */; };
+		8BC1277619D016A0007FF886 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1277419D016A0007FF886 /* ContactsViewController.xib */; };
+		8BC1277919D016BD007FF886 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1277819D016BD007FF886 /* PersonViewController.m */; };
+		8BC1277C19D016EC007FF886 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1277B19D016EC007FF886 /* Person.m */; };
+		8BC127A519D06D73007FF886 /* Core.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC127A419D06D73007FF886 /* Core.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC1276019D0165D007FF886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC1273219D0165C007FF886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC1273919D0165C007FF886;
+			remoteInfo = TelephoneBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B711EB119DBF6C100C3D4E4 /* 4881125.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4881125.png; sourceTree = "<group>"; };
+		8B711EB319DBF6C100C3D4E4 /* phone-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "phone-logo.jpg"; sourceTree = "<group>"; };
+		8B711EB419DBF6C100C3D4E4 /* sms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sms.jpg; sourceTree = "<group>"; };
+		8B711EB919DBF70F00C3D4E4 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		8B711EBA19DBF71000C3D4E4 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		8B711EBB19DBF71000C3D4E4 /* AddContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContactViewController.xib; sourceTree = "<group>"; };
+		8B711EC019DBF9AC00C3D4E4 /* PersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		8B95A6EB19D96E440092082D /* EditPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPersonViewController.h; sourceTree = "<group>"; };
+		8B95A6EC19D96E440092082D /* EditPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPersonViewController.m; sourceTree = "<group>"; };
+		8B95A6ED19D96E440092082D /* EditPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPersonViewController.xib; sourceTree = "<group>"; };
+		8B95A6F419D98DD80092082D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8B95A6F619D99DA10092082D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BC1273A19D0165C007FF886 /* TelephoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelephoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC1273D19D0165C007FF886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BC1273F19D0165C007FF886 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BC1274119D0165C007FF886 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BC1274319D0165C007FF886 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8BC1274719D0165C007FF886 /* TelephoneBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TelephoneBook-Info.plist"; sourceTree = "<group>"; };
+		8BC1274919D0165C007FF886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC1274B19D0165C007FF886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BC1274D19D0165C007FF886 /* TelephoneBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TelephoneBook-Prefix.pch"; sourceTree = "<group>"; };
+		8BC1274E19D0165C007FF886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BC1274F19D0165D007FF886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BC1275219D0165D007FF886 /* TelephoneBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelephoneBook.xcdatamodel; sourceTree = "<group>"; };
+		8BC1275419D0165D007FF886 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BC1275A19D0165D007FF886 /* TelephoneBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelephoneBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC1275B19D0165D007FF886 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BC1276419D0165D007FF886 /* TelephoneBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TelephoneBookTests-Info.plist"; sourceTree = "<group>"; };
+		8BC1276619D0165E007FF886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BC1276819D0165E007FF886 /* TelephoneBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelephoneBookTests.m; sourceTree = "<group>"; };
+		8BC1277219D016A0007FF886 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		8BC1277319D016A0007FF886 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		8BC1277419D016A0007FF886 /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		8BC1277719D016BD007FF886 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		8BC1277819D016BD007FF886 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		8BC1277A19D016EC007FF886 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8BC1277B19D016EC007FF886 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8BC127A319D06D72007FF886 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		8BC127A419D06D73007FF886 /* Core.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Core.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC1273719D0165C007FF886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B95A6F719D99DA10092082D /* QuartzCore.framework in Frameworks */,
+				8B95A6F519D98DD80092082D /* MessageUI.framework in Frameworks */,
+				8BC1274019D0165C007FF886 /* CoreGraphics.framework in Frameworks */,
+				8BC1274419D0165C007FF886 /* CoreData.framework in Frameworks */,
+				8BC1274219D0165C007FF886 /* UIKit.framework in Frameworks */,
+				8BC1273E19D0165C007FF886 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC1275719D0165D007FF886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC1275C19D0165D007FF886 /* XCTest.framework in Frameworks */,
+				8BC1275F19D0165D007FF886 /* CoreData.framework in Frameworks */,
+				8BC1275E19D0165D007FF886 /* UIKit.framework in Frameworks */,
+				8BC1275D19D0165D007FF886 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B711EB019DBF6C100C3D4E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B711EB119DBF6C100C3D4E4 /* 4881125.png */,
+				8B711EB319DBF6C100C3D4E4 /* phone-logo.jpg */,
+				8B711EB419DBF6C100C3D4E4 /* sms.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BC1273119D0165C007FF886 = {
+			isa = PBXGroup;
+			children = (
+				8BC1274519D0165C007FF886 /* TelephoneBook */,
+				8BC1276219D0165D007FF886 /* TelephoneBookTests */,
+				8BC1273C19D0165C007FF886 /* Frameworks */,
+				8BC1273B19D0165C007FF886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC1273B19D0165C007FF886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1273A19D0165C007FF886 /* TelephoneBook.app */,
+				8BC1275A19D0165D007FF886 /* TelephoneBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC1273C19D0165C007FF886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B95A6F619D99DA10092082D /* QuartzCore.framework */,
+				8B95A6F419D98DD80092082D /* MessageUI.framework */,
+				8BC1273D19D0165C007FF886 /* Foundation.framework */,
+				8BC1273F19D0165C007FF886 /* CoreGraphics.framework */,
+				8BC1274119D0165C007FF886 /* UIKit.framework */,
+				8BC1274319D0165C007FF886 /* CoreData.framework */,
+				8BC1275B19D0165D007FF886 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BC1274519D0165C007FF886 /* TelephoneBook */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1274E19D0165C007FF886 /* AppDelegate.h */,
+				8BC1274F19D0165D007FF886 /* AppDelegate.m */,
+				8BC1277219D016A0007FF886 /* ContactsViewController.h */,
+				8BC1277319D016A0007FF886 /* ContactsViewController.m */,
+				8BC1277419D016A0007FF886 /* ContactsViewController.xib */,
+				8B95A6EB19D96E440092082D /* EditPersonViewController.h */,
+				8B95A6EC19D96E440092082D /* EditPersonViewController.m */,
+				8B95A6ED19D96E440092082D /* EditPersonViewController.xib */,
+				8BC1277819D016BD007FF886 /* PersonViewController.m */,
+				8BC1277719D016BD007FF886 /* PersonViewController.h */,
+				8B711EC019DBF9AC00C3D4E4 /* PersonViewController.xib */,
+				8BC1277A19D016EC007FF886 /* Person.h */,
+				8BC1277B19D016EC007FF886 /* Person.m */,
+				8BC127A319D06D72007FF886 /* Core.h */,
+				8BC127A419D06D73007FF886 /* Core.m */,
+				8B711EB919DBF70F00C3D4E4 /* AddContactViewController.h */,
+				8B711EBA19DBF71000C3D4E4 /* AddContactViewController.m */,
+				8B711EBB19DBF71000C3D4E4 /* AddContactViewController.xib */,
+				8BC1275419D0165D007FF886 /* Images.xcassets */,
+				8BC1275119D0165D007FF886 /* TelephoneBook.xcdatamodeld */,
+				8B711EB019DBF6C100C3D4E4 /* Resources */,
+				8BC1274619D0165C007FF886 /* Supporting Files */,
+			);
+			path = TelephoneBook;
+			sourceTree = "<group>";
+		};
+		8BC1274619D0165C007FF886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1274719D0165C007FF886 /* TelephoneBook-Info.plist */,
+				8BC1274819D0165C007FF886 /* InfoPlist.strings */,
+				8BC1274B19D0165C007FF886 /* main.m */,
+				8BC1274D19D0165C007FF886 /* TelephoneBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BC1276219D0165D007FF886 /* TelephoneBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1276819D0165E007FF886 /* TelephoneBookTests.m */,
+				8BC1276319D0165D007FF886 /* Supporting Files */,
+			);
+			path = TelephoneBookTests;
+			sourceTree = "<group>";
+		};
+		8BC1276319D0165D007FF886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1276419D0165D007FF886 /* TelephoneBookTests-Info.plist */,
+				8BC1276519D0165E007FF886 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC1273919D0165C007FF886 /* TelephoneBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC1276C19D0165E007FF886 /* Build configuration list for PBXNativeTarget "TelephoneBook" */;
+			buildPhases = (
+				8BC1273619D0165C007FF886 /* Sources */,
+				8BC1273719D0165C007FF886 /* Frameworks */,
+				8BC1273819D0165C007FF886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelephoneBook;
+			productName = TelephoneBook;
+			productReference = 8BC1273A19D0165C007FF886 /* TelephoneBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC1275919D0165D007FF886 /* TelephoneBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC1276F19D0165E007FF886 /* Build configuration list for PBXNativeTarget "TelephoneBookTests" */;
+			buildPhases = (
+				8BC1275619D0165D007FF886 /* Sources */,
+				8BC1275719D0165D007FF886 /* Frameworks */,
+				8BC1275819D0165D007FF886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC1276119D0165D007FF886 /* PBXTargetDependency */,
+			);
+			name = TelephoneBookTests;
+			productName = TelephoneBookTests;
+			productReference = 8BC1275A19D0165D007FF886 /* TelephoneBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC1273219D0165C007FF886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TundraMobile;
+				TargetAttributes = {
+					8BC1275919D0165D007FF886 = {
+						TestTargetID = 8BC1273919D0165C007FF886;
+					};
+				};
+			};
+			buildConfigurationList = 8BC1273519D0165C007FF886 /* Build configuration list for PBXProject "TelephoneBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BC1273119D0165C007FF886;
+			productRefGroup = 8BC1273B19D0165C007FF886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC1273919D0165C007FF886 /* TelephoneBook */,
+				8BC1275919D0165D007FF886 /* TelephoneBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC1273819D0165C007FF886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC1274A19D0165C007FF886 /* InfoPlist.strings in Resources */,
+				8B711EC119DBF9AC00C3D4E4 /* PersonViewController.xib in Resources */,
+				8B711EBE19DBF71000C3D4E4 /* AddContactViewController.xib in Resources */,
+				8B95A6EF19D96E440092082D /* EditPersonViewController.xib in Resources */,
+				8BC1277619D016A0007FF886 /* ContactsViewController.xib in Resources */,
+				8B711EB819DBF6C100C3D4E4 /* sms.jpg in Resources */,
+				8BC1275519D0165D007FF886 /* Images.xcassets in Resources */,
+				8B711EB519DBF6C100C3D4E4 /* 4881125.png in Resources */,
+				8B711EB719DBF6C100C3D4E4 /* phone-logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC1275819D0165D007FF886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC1276719D0165E007FF886 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC1273619D0165C007FF886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC1277C19D016EC007FF886 /* Person.m in Sources */,
+				8BC127A519D06D73007FF886 /* Core.m in Sources */,
+				8BC1277919D016BD007FF886 /* PersonViewController.m in Sources */,
+				8BC1275019D0165D007FF886 /* AppDelegate.m in Sources */,
+				8B95A6EE19D96E440092082D /* EditPersonViewController.m in Sources */,
+				8BC1277519D016A0007FF886 /* ContactsViewController.m in Sources */,
+				8BC1274C19D0165C007FF886 /* main.m in Sources */,
+				8B711EBD19DBF71000C3D4E4 /* AddContactViewController.m in Sources */,
+				8BC1275319D0165D007FF886 /* TelephoneBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC1275619D0165D007FF886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC1276919D0165E007FF886 /* TelephoneBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC1276119D0165D007FF886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC1273919D0165C007FF886 /* TelephoneBook */;
+			targetProxy = 8BC1276019D0165D007FF886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC1274819D0165C007FF886 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC1274919D0165C007FF886 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BC1276519D0165E007FF886 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC1276619D0165E007FF886 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC1276A19D0165E007FF886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BC1276B19D0165E007FF886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC1276D19D0165E007FF886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TelephoneBook/TelephoneBook-Prefix.pch";
+				INFOPLIST_FILE = "TelephoneBook/TelephoneBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BC1276E19D0165E007FF886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TelephoneBook/TelephoneBook-Prefix.pch";
+				INFOPLIST_FILE = "TelephoneBook/TelephoneBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BC1277019D0165E007FF886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TelephoneBook.app/TelephoneBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TelephoneBook/TelephoneBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TelephoneBookTests/TelephoneBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8BC1277119D0165E007FF886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TelephoneBook.app/TelephoneBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TelephoneBook/TelephoneBook-Prefix.pch";
+				INFOPLIST_FILE = "TelephoneBookTests/TelephoneBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC1273519D0165C007FF886 /* Build configuration list for PBXProject "TelephoneBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC1276A19D0165E007FF886 /* Debug */,
+				8BC1276B19D0165E007FF886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC1276C19D0165E007FF886 /* Build configuration list for PBXNativeTarget "TelephoneBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC1276D19D0165E007FF886 /* Debug */,
+				8BC1276E19D0165E007FF886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC1276F19D0165E007FF886 /* Build configuration list for PBXNativeTarget "TelephoneBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC1277019D0165E007FF886 /* Debug */,
+				8BC1277119D0165E007FF886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BC1275119D0165D007FF886 /* TelephoneBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BC1275219D0165D007FF886 /* TelephoneBook.xcdatamodel */,
+			);
+			currentVersion = 8BC1275219D0165D007FF886 /* TelephoneBook.xcdatamodel */;
+			path = TelephoneBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BC1273219D0165C007FF886 /* Project object */;
+}
